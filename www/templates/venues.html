@@ -1,0 +1,12 @@
+<ion-view view-title="Speak App" class="logo-header">
+	<ion-content>
+		<ion-list>
+			<!-- hardcoding id as 0 on href for the time being -->
+			<a ng-repeat="venue in venues" href="#/app/venue/0" class="item item-thumbnail-left">
+				<img ng-src="http://lorempixel.com/70/70/nightlife/{{venue.id}}/">
+				<h2>{{ venue.name }}</h2>
+				<h4>Lorem Ipsum</h4>
+			</a>
+		</ion-list>
+	</ion-content>
+</ion-view>
