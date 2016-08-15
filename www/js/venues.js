@@ -1,4 +1,4 @@
-angular.module('speakapp.controllers', [])
+angular.module('venues.controllers', [])
 
 .controller('VenuesCtrl', function($scope, $ionicModal, $timeout) {
 	

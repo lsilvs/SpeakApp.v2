@@ -1,4 +1,4 @@
-angular.module('speakapp.controllers', [])
+angular.module('venue-details.controllers', [])
 
 .controller('VenueDetailsCtrl', function($scope, $ionicModal, $timeout) {
     //this is just dummy data for the time being
